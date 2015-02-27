@@ -6,7 +6,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/parthpabari/helloworld"
+            "url": "https://github.com/parthpabari/helloworld.git"
         }
     ],
     "require": {
