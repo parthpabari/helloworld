@@ -1,25 +1,15 @@
 {
- "authors": [
-	 {
-	 "name": "parthpabari",
-	 "email": "parthpabari@gmail.com",
-	 "homepage": "http://localhost/helloworld",
-	 "role": "Developer"
-	 }
- ],
- "repositories": [
-	 {
-	 "type": "vcs",
-	 "url": "http://github.com/parthpabari/helloworld/tree/master"
-	 }
- ],
-	 "require": {
-		 "monolog/monolog": "*",
-		 "distical/distical": "dev-master"
-		 },
-		 "autoload": {
-		 "classmap": [
-		 "classes"
-		]
-	 }
+    "require": {
+        "monolog/monolog": "1.0.*"
+    },
+	
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/parthpabari/helloworld"
+        }
+    ],
+    "require": {
+        "parthpabari/helloword": "dev-master"
+    }
 }
